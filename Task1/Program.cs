@@ -13,7 +13,6 @@ namespace Task1
             int LargeCarpets = Convert.ToInt32(Console.ReadLine());
 
             double PriceWithOutTaxes = (SmallCarpets * 25) + (LargeCarpets * 35);
-
             Console.WriteLine("The price for the small carpet is 25$ ,for large carpet is 35$ and there is Taxes 6% ");
             Console.WriteLine($"The cost without taxes = {PriceWithOutTaxes}");
           
